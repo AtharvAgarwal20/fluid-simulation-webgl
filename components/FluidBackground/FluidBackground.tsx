@@ -28,7 +28,7 @@ export default function FluidBackground() {
             BACK_COLOR: '#000', // Background color of the canvas
             TRANSPARENT: false, // Makes the canvas transparent if true
             BRIGHTNESS: 0.5, // Color brightness (Recommend lower than 1.0 if BLOOM is true)
-            BLOOM: false, // Enables bloom effect
+            BLOOM: true, // Enables bloom effect
             BLOOM_ITERATIONS: 8, // Number of bloom effect iterations
             BLOOM_RESOLUTION: 256, // Resolution of the bloom effect
             BLOOM_INTENSITY: 0.3, // Intensity of the bloom effect
