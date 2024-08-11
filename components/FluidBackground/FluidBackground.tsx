@@ -20,23 +20,23 @@ export default function FluidBackground() {
             SPLAT_RADIUS: 0.25, // Radius of the splats
             SPLAT_FORCE: 6000, // Force applied by the splats
             SPLAT_KEY: 'Space', // Keyboard key to spawn new splats (empty to disable)
-            SHADING: false, // Enables shading in the visualization
+            SHADING: true, // Enables shading in the visualization
             COLORFUL: true, // Enables rapid changing of colors
             COLOR_UPDATE_SPEED: 10, // Speed of color update
-            COLOR_PALETTE: ['#FF0000'], // Custom color palette (empty by default, uses hex colors)
+            COLOR_PALETTE: ['#FF1D8E'], // Custom color palette (empty by default, uses hex colors)
             HOVER: true, // Enables interaction on hover
             BACK_COLOR: '#000', // Background color of the canvas
             TRANSPARENT: false, // Makes the canvas transparent if true
             BRIGHTNESS: 0.5, // Color brightness (Recommend lower than 1.0 if BLOOM is true)
-            BLOOM: false, // Enables bloom effect
+            BLOOM: true, // Enables bloom effect
             BLOOM_ITERATIONS: 8, // Number of bloom effect iterations
             BLOOM_RESOLUTION: 256, // Resolution of the bloom effect
-            BLOOM_INTENSITY: 0.3, // Intensity of the bloom effect
-            BLOOM_THRESHOLD: 0.6, // Threshold for the bloom effect
-            BLOOM_SOFT_KNEE: 0.7, // Soft knee value for the bloom effect
+            BLOOM_INTENSITY: 0.2, // Intensity of the bloom effect
+            BLOOM_THRESHOLD: 0.5, // Threshold for the bloom effect
+            BLOOM_SOFT_KNEE: 0.5, // Soft knee value for the bloom effect
             SUNRAYS: true, // Enables sunrays effect
             SUNRAYS_RESOLUTION: 196, // Resolution of the sunrays effect
-            SUNRAYS_WEIGHT: 1.0, // Weight of the sunrays effect
+            SUNRAYS_WEIGHT: 0.5, // Weight of the sunrays effect
         });
 
         webGLFluidEnhanced.simulation(canvasRef.current!);
