@@ -23,7 +23,7 @@ export default function FluidBackground() {
       SHADING: true, // Enables shading in the visualization
       COLORFUL: true, // Enables rapid changing of colors
       COLOR_UPDATE_SPEED: 10, // Speed of color update
-      COLOR_PALETTE: [], // Custom color palette (empty by default, uses hex colors)
+      COLOR_PALETTE: ["#FF1D8E"], // Custom color palette (empty by default, uses hex colors)
       HOVER: true, // Enables interaction on hover
       BACK_COLOR: "#000", // Background color of the canvas
       TRANSPARENT: false, // Makes the canvas transparent if true
